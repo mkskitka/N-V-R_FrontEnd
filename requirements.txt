@@ -2,4 +2,3 @@ gradio
 requests
 pathlib
 pillow
-io

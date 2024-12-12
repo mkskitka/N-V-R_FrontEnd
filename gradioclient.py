@@ -56,7 +56,7 @@ def send_post_request(PositivePrompt, Seed, Steps, Password):
 interface = gr.Interface(
     fn=send_post_request, 
     theme="soft",
-    title = "N-V-R ZoomCar AI Generative API",
+    title = "Dream Car",
     inputs= [
         gr.Textbox(label="PositivePrompt"), 
         gr.Number(label="Seed", precision=0, value=1),  # Integer input 1

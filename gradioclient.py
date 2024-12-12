@@ -16,7 +16,7 @@ def slugify(s: str) -> str:
 
 # Define the function to handle the form and make a POST request
 def send_post_request(PositivePrompt, Seed, Steps, Password):
-    url = "https://mkskitka--n-v-r-endpoint-comfyui-api.modal.run"  # Replace with your actual endpoint
+    url = "https://n-v-r--n-v-r-endpoint-comfyui-api.modal.run"  # Replace with your actual endpoint
     payload = {
         "prompt": PositivePrompt, 
         "seed": Seed, 
